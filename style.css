@@ -29,6 +29,9 @@ a {
 
 a:hover {
   letter-spacing: 0.25em;
+  background: var(--clr);
+  color: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
 }
 
 a::before {
@@ -58,6 +61,7 @@ a i::before {
   height: 5px;
   border: 2px solid #fff;
   background: #27282c;
+  transform: translateX(-50%);
   transition: 0.5s;
 }
 
@@ -74,6 +78,7 @@ a i::after {
   height: 5px;
   border: 2px solid #fff;
   background: #27282c;
+  transform: translateX(-50%);
   transition: 0.5s;
 }
 
